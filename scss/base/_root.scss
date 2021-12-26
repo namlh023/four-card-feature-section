@@ -1,0 +1,52 @@
+:root {
+  --clr-border-red: hsl(0, 78%, 62%);
+  --clr-border-cyan: hsl(180, 62%, 55%);
+  --clr-border-orange: hsl(34, 97%, 64%);
+  --clr-border-blue: hsl(212, 86%, 64%);
+
+  --clr-heading: hsl(234, 12%, 34%);
+  --clr-text: hsl(229, 6%, 66%);
+  --clr-background: hsl(0, 0%, 98%);
+  --clr-background-card: hsl(0, 0%, 100%);
+
+  --ff-primary: "Poppins", sans-serif;
+
+  --fs-text: 0.9375rem;
+  --fs-text-small: 0.8125rem;
+  --fs-h1: 1.5rem;
+  --ls-h2: 1.25rem;
+
+  --lh-text: 1.67em;
+  --lh-text-small: 1.77em;
+  --lh-h1: 1.5em;
+  --lh-h2: 1.5em;
+
+  --ls-primary: 0.006944444em;
+
+  --fw-200: 200;
+  --fw-400: 400;
+  --fw-600: 600;
+
+  --space-container-1: 5.3125rem;
+  --space-container-2: 2rem;
+  --space-hero: 4.75rem;
+  --space-card: 1.5rem;
+  --space-heading: 1rem;
+  --space-card-container: 1.75rem;
+  --space-p-1: 0.0625rem;
+  --space-p-2: 2.0625rem;
+
+  --icon-width: 3.5625rem;
+  --container-max-width: 23.4375rem;
+
+  @media (min-width: 75em) {
+    --fs-h1: 2.25rem;
+
+    --space-hero: 4rem;
+    --space-card: 1.875rem;
+    --space-card-container: 2rem;
+    --space-p-1: 0.375rem;
+    --space-p-2: 2.5rem;
+    --container-max-width: 70rem;
+  }
+}
